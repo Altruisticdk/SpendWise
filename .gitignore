@@ -1,0 +1,16 @@
+
+# Ignore environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Ignore dependencies
+node_modules/
+**/node_modules/
+
+# Ignore build files
+dist/
+build/
+
+# Ignore logs
+*.log
